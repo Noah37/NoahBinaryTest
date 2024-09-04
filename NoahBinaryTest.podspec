@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2252055382@qq.com/NoahBinaryTest'
+  s.homepage         = 'https://github.com/noah37/NoahBinaryTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2252055382@qq.com' => 'caonongyun@guazi.com' }
-  s.source           = { :git => 'https://github.com/2252055382@qq.com/NoahBinaryTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Noah37/NoahBinaryTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'NoahBinaryTest' => ['NoahBinaryTest/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'NoahBinaryTest/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1B1A7BDF69BAFDAF2DBB6CB7 /* Pods-NoahBinaryTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoahBinaryTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-NoahBinaryTest_Tests/Pods-NoahBinaryTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		22B7A8D32FDD672C14EA9F9F /* NoahBinaryTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NoahBinaryTest.podspec; path = ../NoahBinaryTest.podspec; sourceTree = "<group>"; };
+		22B7A8D32FDD672C14EA9F9F /* NoahBinaryTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NoahBinaryTest.podspec; path = ../NoahBinaryTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* NoahBinaryTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoahBinaryTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,11 +58,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		68C07F71BE47A96EE62EB9C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		68C07F71BE47A96EE62EB9C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C9421B8E603B25064CF40F /* Pods_NoahBinaryTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoahBinaryTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BFBF085155CE9103EEF1064 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9BFBF085155CE9103EEF1064 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BC10DE89C8A0327DBB62FEFD /* Pods-NoahBinaryTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoahBinaryTest_Example.release.xcconfig"; path = "Target Support Files/Pods-NoahBinaryTest_Example/Pods-NoahBinaryTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D93C6C9F78EDF9E18955140C /* Pods_NoahBinaryTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoahBinaryTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F677D3F6133B98846ACF8159 /* Pods-NoahBinaryTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoahBinaryTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-NoahBinaryTest_Example/Pods-NoahBinaryTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				FDECA9B0656DBD39CE7DC87D /* Pods-NoahBinaryTest_Tests.debug.xcconfig */,
 				1B1A7BDF69BAFDAF2DBB6CB7 /* Pods-NoahBinaryTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
