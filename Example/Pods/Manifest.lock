@@ -1,0 +1,16 @@
+PODS:
+  - NoahBinaryTest (0.1.0)
+
+DEPENDENCIES:
+  - NoahBinaryTest (from `../`)
+
+EXTERNAL SOURCES:
+  NoahBinaryTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NoahBinaryTest: cd4afd26eae15fe88d599ed0539f765b00b8fe50
+
+PODFILE CHECKSUM: 5b7a2c869271d671e132d8dbb34a5a548a681e57
+
+COCOAPODS: 1.15.2

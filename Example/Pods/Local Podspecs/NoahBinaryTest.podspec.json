@@ -1,0 +1,22 @@
+{
+  "name": "NoahBinaryTest",
+  "version": "0.1.0",
+  "summary": "A short description of NoahBinaryTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2252055382@qq.com/NoahBinaryTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2252055382@qq.com": "caonongyun@guazi.com"
+  },
+  "source": {
+    "git": "https://github.com/2252055382@qq.com/NoahBinaryTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NoahBinaryTest/Classes/**/*"
+}
